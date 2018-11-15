@@ -10,37 +10,38 @@
   <title>Componente Carreiras Alura</title>
 </head>
 <body>
-  <h1>Carreira Java</h1>
+  <h1 class="title">Carreira Java</h1>
 
-  <div>
-    <img src="./img/icone-java.png" alt="copo com bebida quente é o ícone da linguagem java">
+  <div class="card">
+    <div>
+      <img class="coffe" src="./img/icone-java.png" alt="copo com bebida quente é o ícone da linguagem java">
+  
+      <h2 class="title">Java I: Primeiros passos</h2>    
+      <ul>
+        <li>JVM? JDK? JRE? O que são essas siglas?</li>
+        <li>Variáveis e controle de fluxo</li>
+        <li>Orientação a objetos e seu código melhorado</li>
+        <li>Modificadores de acesso e encapsulamento</li>
+        <li>Superando o trauma das arrays</li>
+      </ul>
+    </div>
+    <hr>
+    
 
-    <h2>Java I: Primeiros passos</h2>    
-    <ul>
-      <li>JVM? JDK? JRE? O que são essas siglas?</li>
-      <li>Variáveis e controle de fluxo</li>
-      <li>Orientação a objetos e seu código melhorado</li>
-      <li>Modificadores de acesso e encapsulamento</li>
-      <li>Superando o trauma das arrays</li>
-    </ul>
-  </div>
+    <!-- <button id="informations" onclick="moreInformations(); changeText()" value="Mais Informações"></button> -->
 
-  <button onclick="detail()">Mais Informações</button>
+    <button id="informations" onclick="moreInformations()" value="">Mais Informações</button>
   
-  <div id="info">
-    <img src="./img/icone.png" alt="ícone para pontuar as informações">
-    <p>Nível Básico</p>
-  </div>
-  
-  <div id="info">
-    <img src="./img/icone.png" alt="ícone para pontuar as informações">
-    <p>12 horas para conclusão</p>
-  </div>
-  
-  <div id="info">
-    <img src="./img/icone.png" alt="ícone para pontuar as informações">
-    <p>110 minutos de vídeo</p>
-  </div>
+    <div id="lessInformations">
+      <div id="icon1"></div>
+      <div id="item1"></div>    
+    
+      <div id="icon2"></div>
+      <div id="item2"></div>    
+    
+      <div id="icon3"></div>
+      <div id="item3"></div>    
+    </div>
     
   <script src="./js/script.js"></script>
 </body>
