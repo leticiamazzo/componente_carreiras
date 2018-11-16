@@ -11,38 +11,44 @@
 </head>
 <body>
   <h1 class="title">Carreira Java</h1>
-
   <div class="card">
-    <div>
+    <div class="first_part">
       <img class="coffe" src="./img/icone-java.png" alt="copo com bebida quente é o ícone da linguagem java">
-  
-      <h2 class="title">Java I: Primeiros passos</h2>    
-      <ul>
-        <li>JVM? JDK? JRE? O que são essas siglas?</li>
-        <li>Variáveis e controle de fluxo</li>
-        <li>Orientação a objetos e seu código melhorado</li>
-        <li>Modificadores de acesso e encapsulamento</li>
-        <li>Superando o trauma das arrays</li>
-      </ul>
+      <div class="topics">
+        <h2 class="title">Java I: Primeiros passos</h2>    
+        <ul>
+          <li>JVM? JDK? JRE? O que são essas siglas?</li>
+          <li>Variáveis e controle de fluxo</li>
+          <li>Orientação a objetos e seu código melhorado</li>
+          <li>Modificadores de acesso e encapsulamento</li>
+          <li>Superando o trauma das arrays</li>
+        </ul>
+      </div>
     </div>
-    <hr>
-    
 
-    <!-- <button id="informations" onclick="moreInformations(); changeText()" value="Mais Informações"></button> -->
-
-    <button id="informations" onclick="moreInformations()" value="">Mais Informações</button>
+    <div class="bottom_side"></div>
   
-    <div id="lessInformations">
-      <div id="icon1"></div>
-      <div id="item1"></div>    
-    
-      <div id="icon2"></div>
-      <div id="item2"></div>    
-    
-      <div id="icon3"></div>
-      <div id="item3"></div>    
+    <div class="second_part">     
+      <div id="show" class="content">
+        <div class=" align">
+          <div class="right_side">
+            <img src="./img/icone.png" alt="ícone para pontuar as informações">
+            <p>Nível Básico</p>
+          </div>
+          <div class="right_side">
+            <img src="./img/icone.png" alt="ícone para pontuar as informações">
+            <p>12 horas para conclusão</p>
+          </div>
+          <div class="last_side">
+            <img src="./img/icone.png" alt="ícone para pontuar as informações">
+            <p>110 minutos de vídeo</p>
+          </div>
+        </div> 
+      </div>
+      <div class="button_position">
+        <input type="button" id="informations" onclick="moreInformations()" value="Mais Informações" />
+      </div>
     </div>
-    
   <script src="./js/script.js"></script>
 </body>
 </html>

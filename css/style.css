@@ -8,10 +8,13 @@ body {
 
 .title {
   text-align: center;
+  letter-spacing: 1px;
+  margin-top: 30px;
 }
 
 h2 {
   color: #53585d;
+  margin-right: 15px;
 }
 
 .card {
@@ -29,16 +32,27 @@ h2 {
   margin-top: 10px;
 }
 
+.topics {
+  margin-left: 4%;
+}
+
 ul {
   text-align: start;
   display: inline-block;
+  margin-top: 0;
 }
 
 ul li {
   color: #53585d;
   font-weight: bold;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding: 10px 20px 10px 10px ;
+  letter-spacing: 1px;
+}
+
+.bottom_side {
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color: #e2e6e8;
 }
 
 #informations { 
@@ -50,13 +64,104 @@ ul li {
   font-weight: bold;
   text-transform: uppercase;
   margin: 25px;
+  letter-spacing: 1px;
+}
+
+.content {
+  display: none;
+}
+
+#show{
+  width: 100%;
 }
 
 p {
   color: #79828b;  
   margin-top: 0px;
+  letter-spacing: 1px;
 }
 
-/* hr {
- color: red;
-} */
+.right_side {
+  text-align: center;
+  border-style: none;
+  padding: 0 10px;
+}
+
+.last_side {
+  text-align: center;
+  border-style: none;
+  padding: 0 10px;
+}
+
+@media (min-width: 679px) and (max-width: 939px)  {
+  .first_part {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-left: 10%;
+  }
+
+  .align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+  
+  .right_side {
+    text-align: center;
+    width: 33.333%;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    border-color: #e2e6e8;
+    padding: 0 10px;
+  }
+
+  .last_side {
+    width: 33.333%;    
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 940px) {
+  .first_part {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 10%;
+  }
+
+  .second_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  .align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  } 
+
+  .right_side {
+    text-align: center;
+    width: 100%;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    border-color: #e2e6e8;
+    padding: 0 10px;
+}
+
+  .last_side {
+    text-align: center;
+    width: 100%;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    border-color: #e2e6e8;
+    padding: 0 10px;
+}
+
+  .button_position {
+    width: 65%;
+  }
+}
