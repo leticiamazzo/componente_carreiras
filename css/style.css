@@ -12,11 +12,6 @@ body {
   margin-top: 30px;
 }
 
-h2 {
-  color: #53585d;
-  margin-right: 15px;
-}
-
 .card {
   margin: 55px;
   background-color: white;
@@ -27,13 +22,18 @@ h2 {
   line-height: 1.75;
 }
 
-.coffe {
+.cup {
   width: 170px;
   margin-top: 10px;
 }
 
 .topics {
   margin-left: 4%;
+}
+
+h2 {
+  color: #53585d;
+  margin-right: 15px;
 }
 
 ul {
@@ -55,6 +55,32 @@ ul li {
   border-color: #e2e6e8;
 }
 
+#show{
+  width: 100%;
+}
+
+.content {
+  display: none;
+}
+
+.right_side {
+  text-align: center;
+  border-style: none;
+  padding: 0 10px;
+}
+
+p {
+  color: #79828b;  
+  margin-top: 0px;
+  letter-spacing: 1px;
+}
+
+.last_side {
+  text-align: center;
+  border-style: none;
+  padding: 0 10px;
+}
+
 #informations { 
   background-color: #1bd59a;
   border-radius: 5px;
@@ -65,32 +91,6 @@ ul li {
   text-transform: uppercase;
   margin: 25px;
   letter-spacing: 1px;
-}
-
-.content {
-  display: none;
-}
-
-#show{
-  width: 100%;
-}
-
-p {
-  color: #79828b;  
-  margin-top: 0px;
-  letter-spacing: 1px;
-}
-
-.right_side {
-  text-align: center;
-  border-style: none;
-  padding: 0 10px;
-}
-
-.last_side {
-  text-align: center;
-  border-style: none;
-  padding: 0 10px;
 }
 
 @media (min-width: 679px) and (max-width: 939px)  {
@@ -150,7 +150,7 @@ p {
     border-width: 0 2px 0 0;
     border-color: #e2e6e8;
     padding: 0 10px;
-}
+  }
 
   .last_side {
     text-align: center;
@@ -159,7 +159,7 @@ p {
     border-width: 0 2px 0 0;
     border-color: #e2e6e8;
     padding: 0 10px;
-}
+  }
 
   .button_position {
     width: 65%;
